@@ -1,0 +1,21 @@
+body {
+    background-color: beige;
+}
+
+.main-container {
+    
+    /* Draw a solid border make it maroon */
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgba(0, 128, 70, 0.58);
+    /*Add space between the border and its inside elements. */
+    padding: 10px;
+    /* Color the background dark grey. */
+    background : lightgrey;
+    width: 75%;
+    margin: auto;
+}
+
+div.align{
+    text-align: center;
+}
