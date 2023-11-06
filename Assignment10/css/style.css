@@ -3,19 +3,31 @@ body {
 }
 
 .main-container {
-    
-    /* Draw a solid border make it maroon */
     border-style: solid;
     border-width: 10px;
     border-color: rgba(0, 128, 70, 0.58);
-    /*Add space between the border and its inside elements. */
     padding: 10px;
-    /* Color the background dark grey. */
+    opacity: 0.5;
     background : lightgrey;
-    width: 75%;
+    width: 80%;
+    margin: auto;
+}
+
+.secondary-container {
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgba(244, 94, 1, 0.811);
+    padding: 10px;
+    background : rgb(147, 80, 176);
+    width: 80%;
     margin: auto;
 }
 
 div.align{
     text-align: center;
 }
+
+#font {
+    font-family: Impact;
+    font-weight: bolder;
+ }
