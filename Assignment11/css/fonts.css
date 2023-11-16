@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Lora', serif;
+    src: url('../fonts/Lora-Italic-VariableFont_wght.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lora', serif;
+    src: url('../fonts/Lora-VariableFont_wght.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}

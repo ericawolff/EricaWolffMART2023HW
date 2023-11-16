@@ -1,0 +1,47 @@
+body {
+background-color: cadetblue;
+}
+
+.title-container {
+    font-family:'Lora', serif;
+    border-style: solid;
+    border-width: 10px;
+    border-color: tomato;
+    padding: 10px;
+    opacity: 0.5;
+    background : lightgrey;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+div.align{
+    text-align: center;
+}
+
+.one {
+    font-family: 'Lora';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.button:hover .change-01 {
+    text-decoration: underline;
+}
+
+.button {
+    background-color: whitesmoke;
+    border: none;
+    color: black;
+    border: 2px solid purple;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+}
