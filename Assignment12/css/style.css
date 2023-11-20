@@ -1,0 +1,144 @@
+body {
+    font-family: cursive;
+}
+
+.title-box {
+    width: auto;
+    height: 200px;
+    border: 10px solid black;
+    padding: 1em;
+    margin: 10px;
+    background-color: seagreen;
+    text-align: center;
+}
+
+.title-child-box {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1em;
+    text-align: center;
+    border: 10px solid #fff;
+    background-color: lemonchiffon;
+    color: #000000;
+    font-size: 1.25em;
+}
+
+.my-box {
+    width: 50%;
+    min-width: 400px;
+    max-width: 600px;
+    height: 200px;
+    border: 10px dotted black;
+    padding: 1em;
+    margin: 10px;
+    background-color: cadetblue;
+    text-align: center;
+
+  }
+
+  .child-box {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1em;
+    text-align: center;
+    border: 10px solid #fff;
+    background-color: #cd661c;
+    color: #fff;
+    font-size: 1.25em;
+  }
+
+  .my-border {
+    border-radius: 100px;
+  }
+
+  .overflow-scroll {
+    overflow: scroll;
+ }
+
+ header {
+    background-color: #d0d0d0;
+    font-family: sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0.25em;
+}
+
+ .menu-item {
+    margin: auto;
+    padding: 0.25em;
+    min-width: 75px;
+    font-size: 10pt;
+    color: #fff;
+    background-color: plum;
+    line-height: 2.1em;
+ }
+
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.menu-item:hover {
+    background-color: mistyrose;
+    color: #333;
+}
+
+.dropdown {
+    font-family: sans-serif;
+    font-size: 16pt;
+    width: 100%;
+    min-width: 200px;
+    max-width: 500px;
+    background-color: plum;
+    margin: auto;
+}
+
+.dropdown-tip {
+    font-size: 1.5em;
+    padding: 1em;
+    text-align: center;
+    color: #fff;
+    background-color: rebeccapurple;
+}
+
+.hidden {
+    display: none;
+    font-size: 1em;
+    padding: 1em;
+}
+
+.dropdown:hover .hidden {
+    display: block;
+}
+
+.fixed-container p {
+    width: 75%;
+    color: #2f698e;
+    background-color: #cccccc;
+    padding: 1em;
+    margin: auto;
+}
+
+.fixed-container .fixed-element {
+    position: fixed;
+    top: 20px;
+    left: 100px;
+    max-width: 300px;
+    font-size: 2em;
+    opacity: 0.8;
+    text-align: center;
+    color: #000;
+    background-color: rosybrown;
+}
+
+img {
+    float: right;
+    width: 50%;
+}
