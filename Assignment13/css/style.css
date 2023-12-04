@@ -1,11 +1,10 @@
 header {
     background-color: darkslategray;
-    font-family: serif;
+    font-family: monospace;
     font-size: 10pt;
     text-transform: uppercase;
     margin: 0;
-    height: 2.15em;
-    text-align: right;
+    text-align: center;
 }
 
 /* Set the layout of the menu: */
@@ -84,7 +83,7 @@ body {
 .fullscreen-pic {
     width: 100%;
     height: 400px;
-    background-image: url(Assignment13/images/guilty-kitty.jpeg);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLQRbmHmTdO3C0_daRqSfoCXVQm57oQE8d5g&usqp=CAU);
     background-size: 100% 100%;
 }
 
@@ -92,7 +91,7 @@ body {
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 56.25%;
+    padding: 1em;
 }
   
 .responsive-iframe {
