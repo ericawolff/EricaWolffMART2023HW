@@ -1,0 +1,11 @@
+.container {
+    background-color: darkolivegreen;
+    border: 10px dotted darkseagreen;
+    padding: 1em;
+    text-align: center;
+    width: 50%;
+}
+
+canvas {
+    border: 1px solid #ccc;
+  }

@@ -7,7 +7,7 @@ header {
     text-align: center;
 }
 
-/* Set the layout of the menu: */
+
 .menu-item {
     display: inline-block;
     margin: 0 0;
@@ -17,7 +17,6 @@ header {
     padding: 0.5em 0;
 }
 
-/* Style the links: */
 .menu-item a {
     color: #fff;
     text-decoration: none;
@@ -26,7 +25,7 @@ header {
     background-color: lightslategray;
 }
 
-/* Add a dropdown feature: */
+
 .dropdown {
     display: inline-block;
 }
